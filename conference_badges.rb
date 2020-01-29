@@ -21,4 +21,3 @@ end
  def printer(speakers)
    batch_badge_creator(attendees).map do |person|
      puts person
-    
