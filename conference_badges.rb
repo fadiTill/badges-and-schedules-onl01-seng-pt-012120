@@ -15,4 +15,14 @@ def assign_rooms(speackers)
   speackers.map.with_index do |name,index|
    "Hello, #{name}! You'll be assigned to room #{index+1}!"
   end
-end
+end 
+
+
+ def printer(speakers)
+   names.map do |name|
+    puts  badge_maker(name)
+     end
+     speackers.map.with_index do |name,index|
+       puts "Hello, #{name}! You'll be assigned to room #{index+1}!"
+     end
+ end
