@@ -15,7 +15,7 @@ def assign_rooms(speackers)
   speackers.map.with_index do |name,index|
    "Hello, #{name}! You'll be assigned to room #{index+1}!"
   end
-end 
+end
 
 
  def printer(speakers)
